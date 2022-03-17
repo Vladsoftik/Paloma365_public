@@ -32,7 +32,7 @@ mysqld_safe -u root &
 sleep 2
 
 #new user
-mysql -u $(whoami) -e "use mysql; DROP USER 'root'@'localhost'; CREATE USER 'root'@'%' IDENTIFIED BY 'root'; flush privileges;"
+mysql -u $(whoami) -e "use mysql; DROP USER 'root'@'localhost'; CREATE USER 'root'@'%' IDENTIFIED BY 'root'; GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'; flush privileges;"
 
 termux-wake-lock
 
