@@ -1,4 +1,31 @@
 #  Примеры запросов для API сервиса Paloma-1C на Python
+
+## Описание таблиц
+### Справочники 
+- s_items
+- s_clients
+- s_type_inout
+- s_warehouse
+- s_organizations
+- s_cash
+- s_bank 
+### Документы 
+- d_order
+- d_receipt
+- d_selling
+- d_posting
+- d_cancellation
+- d_inventory
+- d_movement
+- d_return_from_covenantee
+- d_return_to_covenantee
+- d_regrading
+- d_cash_income
+- d_cash_outcome
+- d_cash_movement
+- d_bank_income
+- d_bank_outcome
+- d_bank_movement
 ## Запрос Товаров и услуг
 ```python
 import requests
