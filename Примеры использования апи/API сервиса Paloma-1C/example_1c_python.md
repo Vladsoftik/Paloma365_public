@@ -2,30 +2,32 @@
 
 ## Описание таблиц
 ### Справочники 
-- s_items
-- s_clients
-- s_type_inout
-- s_warehouse
-- s_organizations
-- s_cash
-- s_bank 
+- s_items / Товары и услуги
+- s_clients / Контрагенты 
+- s_type_inout / Статья движения денежных средств
+- s_warehouse / Склады
+- s_organizations / Организации
+- s_cash / Кассы
+- s_bank  / Банковские счета
+
 ### Документы 
-- d_order
-- d_receipt
-- d_selling
-- d_posting
-- d_cancellation
-- d_inventory
-- d_movement
-- d_return_from_covenantee
-- d_return_to_covenantee
-- d_regrading
-- d_cash_income
-- d_cash_outcome
-- d_cash_movement
-- d_bank_income
-- d_bank_outcome
-- d_bank_movement
+- d_order / Счет заказ
+- d_receipt / Поступление товара
+- d_selling / Реализация товара
+- d_posting / Оприходование
+- d_cancellation / Списание
+- d_inventory / Инвентаризация 
+- d_movement / Перемещение между складами
+- d_return_from_covenantee / 
+- d_return_to_covenantee / 
+- d_regrading / 
+- d_cash_income / Поступление в кассу
+- d_cash_outcome / Расход из кассы
+- d_cash_movement / Перемещение между кассами
+- d_bank_income / Поступление в банковский счет
+- d_bank_outcome / Расход из банковского счета
+- d_bank_movement / Перемещение между банковскими счетами
+
 ## Запрос Товаров и услуг
 ```python
 import requests
