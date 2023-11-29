@@ -3,12 +3,24 @@
 ## Описание таблиц
 ### Справочники 
 - s_items / Товары и услуги
+- s_shtrih / Дополнительные штрихкоды
 - s_clients / Контрагенты 
 - s_type_inout / Статья движения денежных средств
 - s_warehouse / Склады
 - s_organizations / Организации
 - s_cash / Кассы
 - s_bank  / Банковские счета
+- s_employee / Сотрудники
+- s_location / Помещения 
+- s_objects / Столы
+- s_menu / Меню
+- t_menu_items / Товары в меню
+- s_nds_type / Налоговые ставки 
+- s_prices_types / Типы цен
+- s_position / Должности
+- s_types_of_payment / Виды оплаты 
+- s_units_of_measurement / Единицы измерения
+
 
 ### Документы 
 - d_order / Счет заказ
@@ -18,15 +30,23 @@
 - d_cancellation / Списание
 - d_inventory / Инвентаризация 
 - d_movement / Перемещение между складами
-- d_return_from_covenantee / 
-- d_return_to_covenantee / 
-- d_regrading / 
+- d_return_from_covenantee / Возврат от покупателя
+- d_return_to_covenantee / Возврат поставщику
+- d_regrading / Пересортица
+- d_production / Выпуск продукции
+- d_stripping / Акт разделки
+- d_setunset / Акт комплектации
 - d_cash_income / Поступление в кассу
 - d_cash_outcome / Расход из кассы
 - d_cash_movement / Перемещение между кассами
+- d_cash_bank_income / Перемещение c банковского счета в кассу
+- d_cash_bank_outcome / Перемещение из кассы на банковский счет
 - d_bank_income / Поступление в банковский счет
 - d_bank_outcome / Расход из банковского счета
 - d_bank_movement / Перемещение между банковскими счетами
+- d_extra_charge / Наценка на товаары и услуги
+- r_prices_types / Установка цены на товар
+- d_urv_transactions / Отметки времени прихода ухода в Учете рабочего времени
 
 ## Запрос Товаров и услуг
 ```python
