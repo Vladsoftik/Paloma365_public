@@ -20,6 +20,8 @@
 - s_position / Должности
 - s_types_of_payment / Виды оплаты 
 - s_units_of_measurement / Единицы измерения
+- s_calculations / Калькуляции
+- t_calculations / Состав калькуляции
 
 
 ### Документы 
