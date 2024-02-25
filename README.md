@@ -23,7 +23,18 @@
 ## Драйвера и программы для работы с оборудованием
 ### Принтера чеков 
 - [XPrinter V3.0C](https://download.paloma365.net/driversoft/XPrinter%20V3.0C.zip)
-- 
+- [Castom80](https://download.paloma365.net/driversoft/Castom80POS.zip)
+- [XPrinter V3.0C](https://download.paloma365.net/driversoft/XPrinter%20V3.0C.zip)
+- [XPrinter V3.0C](https://download.paloma365.net/driversoft/XPrinter%20V3.0C.zip)
+- [XPrinter V3.0C](https://download.paloma365.net/driversoft/XPrinter%20V3.0C.zip)
+- [XPrinter V3.0C](https://download.paloma365.net/driversoft/XPrinter%20V3.0C.zip)
+- [XPrinter V3.0C](https://download.paloma365.net/driversoft/XPrinter%20V3.0C.zip)
 ### Принтера этикеток
+- [350 360B](https://download.paloma365.net/driversoft/350_360B.zip)
+- [235b 237b 365b](https://download.paloma365.net/driversoft/235b_237b_365b.zip)
 ### Дисплеи покупателя
+- [Дисплей покупателя](https://download.paloma365.net/driversoft/buy_display.exe)
 ### Весы
+- [Масса К Драйвер](MassaKDriverRSetup3.3.0.3.zip)
+### Фискальные регистраторы
+- [Штрих ФР 4.12](https://download.paloma365.net/driversoft/DrvFR_4.12_413.zip)
